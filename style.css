@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DAD459;
+    color: #581845;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 100px; /* Adjust the size accordingly */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #581845;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #DAD459;
+    color: #581845;
+    text-align: center;
+    padding: 5px; /* Decrease padding */
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    /*height: 25px; /* Adjust the height to your desired value */
+}
+
+
+.service-category {
+    margin-bottom: 20px; /* Add some space between categories */
+  }
+  
+  .service-category h3 {
+    font-size: 24px; /* Adjust the heading size */
+    color: #581845; /* Adjust the heading color */
+  }
